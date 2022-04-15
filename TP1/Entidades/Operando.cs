@@ -44,9 +44,13 @@ namespace Entidades
             if (EsBinario(binario))
             {
                 int resultado = 0;
-                for (int i = binario.Length; i >= 0; i++)
+                int exponente = 0;
+                for (int i = binario.Length - 1; i >= 0; i--)
                 {
-                    resultado += (int)binario[i] * (2 ^ i);
+                    int digito = binario[i] - 48;
+                    int potencia = (int)Math.Pow(2, exponente);
+                    resultado += digito * potencia;
+                    exponente++;
                 }
                 return resultado.ToString();
             }
@@ -56,20 +60,33 @@ namespace Entidades
         {
             if (int.TryParse(numero, out int numeroIngresado) && numeroIngresado > 0)
             {
-                char[] resultado = null;
-                char digito;
-                string invertido;
+                string resultado = "";
+                string digito;
+                string invertido = "";
                 int indice = 0;
                 int divisor = numeroIngresado;
-                while (divisor > 2)
+                while (divisor >= 2)
                 {
-                    digito = (char)(divisor % 2);
+                    digito = (divisor % 2).ToString();
                     divisor = divisor / 2;
-                    resultado.SetValue(digito, indice);
+                    resultado += digito;
+                    if (divisor < 2)
+                    {
+                        resultado += divisor;
+                    }
                     indice++;
+                    //if(divisor == 2)
+                    //{
+                    //    resultado = resultado + digito;
+                    //    resultado = resultado + divisor/2;
+                    //}
                 }
-                Array.Reverse(resultado);
-                invertido = resultado.ToString();
+                for (int i = resultado.Length-1; i >= 0; i--)
+                {
+                    int j = 0;
+                    invertido = invertido + resultado[i].ToString();
+                    j++;
+                }
 
                 return invertido;
 
