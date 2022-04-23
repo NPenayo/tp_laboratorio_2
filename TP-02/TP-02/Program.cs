@@ -70,7 +70,7 @@ namespace TP_02_2018
             Console.Clear();
 
             // Muestro solo Camioneta
-            Console.WriteLine(Taller.Listar(taller, Taller.ETipo.Suv));
+            Console.WriteLine(Taller.Listar(taller, Taller.ETipo.SUV));
             Console.WriteLine("<-------------PRESIONE UNA TECLA PARA SALIR------------->");
             Console.ReadKey();
         }

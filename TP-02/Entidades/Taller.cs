@@ -15,7 +15,7 @@ namespace Entidades
         private int espacioDisponible;
         public enum ETipo
         {
-            Ciclomotor, Sedan, Suv, Todos
+            Ciclomotor, Sedan, SUV, Todos
         }
 
         #region "Constructores"
@@ -60,20 +60,20 @@ namespace Entidades
             {
                 switch (tipo)
                 {
-                    case ETipo.Suv:
-                        if (v.GetType().Name == tipo.ToString())
+                    case ETipo.SUV:
+                        if (v is Suv)
                         {
                             sb.AppendLine(v.Mostrar());
                         }
                         break;
                     case ETipo.Ciclomotor:
-                        if (v.GetType().Name == tipo.ToString())
+                        if (v is Ciclomotor)
                         {
                             sb.AppendLine(v.Mostrar());
                         }
                         break;
                     case ETipo.Sedan:
-                        if (v.GetType().Name == tipo.ToString())
+                        if (v is Sedan)
                         {
                             sb.AppendLine(v.Mostrar());
                         }
