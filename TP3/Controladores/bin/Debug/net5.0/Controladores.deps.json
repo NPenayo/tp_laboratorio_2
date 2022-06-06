@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Controladores/1.0.0": {
+        "dependencies": {
+          "Archivos": "1.0.0"
+        },
+        "runtime": {
+          "Controladores.dll": {}
+        }
+      },
+      "Archivos/1.0.0": {
+        "runtime": {
+          "Archivos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Controladores/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Archivos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

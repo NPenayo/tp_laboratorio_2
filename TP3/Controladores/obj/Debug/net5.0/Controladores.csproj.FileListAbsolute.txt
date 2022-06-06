@@ -1,0 +1,15 @@
+C:\Users\Nicolas\Documents\Repos\Trabajos Practicos\TP3\Controladores\bin\Debug\net5.0\Controladores.deps.json
+C:\Users\Nicolas\Documents\Repos\Trabajos Practicos\TP3\Controladores\bin\Debug\net5.0\Controladores.dll
+C:\Users\Nicolas\Documents\Repos\Trabajos Practicos\TP3\Controladores\bin\Debug\net5.0\Controladores.pdb
+C:\Users\Nicolas\Documents\Repos\Trabajos Practicos\TP3\Controladores\obj\Debug\net5.0\Controladores.csproj.AssemblyReference.cache
+C:\Users\Nicolas\Documents\Repos\Trabajos Practicos\TP3\Controladores\obj\Debug\net5.0\Controladores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicolas\Documents\Repos\Trabajos Practicos\TP3\Controladores\obj\Debug\net5.0\Controladores.AssemblyInfoInputs.cache
+C:\Users\Nicolas\Documents\Repos\Trabajos Practicos\TP3\Controladores\obj\Debug\net5.0\Controladores.AssemblyInfo.cs
+C:\Users\Nicolas\Documents\Repos\Trabajos Practicos\TP3\Controladores\obj\Debug\net5.0\Controladores.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Documents\Repos\Trabajos Practicos\TP3\Controladores\obj\Debug\net5.0\Controladores.dll
+C:\Users\Nicolas\Documents\Repos\Trabajos Practicos\TP3\Controladores\obj\Debug\net5.0\refint\Controladores.dll
+C:\Users\Nicolas\Documents\Repos\Trabajos Practicos\TP3\Controladores\obj\Debug\net5.0\Controladores.pdb
+C:\Users\Nicolas\Documents\Repos\Trabajos Practicos\TP3\Controladores\obj\Debug\net5.0\ref\Controladores.dll
+C:\Users\Nicolas\Documents\Repos\Trabajos Practicos\TP3\Controladores\bin\Debug\net5.0\Archivos.dll
+C:\Users\Nicolas\Documents\Repos\Trabajos Practicos\TP3\Controladores\bin\Debug\net5.0\Archivos.pdb
+C:\Users\Nicolas\Documents\Repos\Trabajos Practicos\TP3\Controladores\obj\Debug\net5.0\Controladores.csproj.CopyComplete

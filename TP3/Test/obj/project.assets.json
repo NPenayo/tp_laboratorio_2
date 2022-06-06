@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Archivos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Archivos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Archivos.dll": {}
+        }
+      },
+      "Controladores/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Archivos": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Controladores.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Controladores.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Archivos/1.0.0": {
+      "type": "project",
+      "path": "../Datos/Archivos.csproj",
+      "msbuildProject": "../Datos/Archivos.csproj"
+    },
+    "Controladores/1.0.0": {
+      "type": "project",
+      "path": "../Controladores/Controladores.csproj",
+      "msbuildProject": "../Controladores/Controladores.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Archivos >= 1.0.0",
+      "Controladores >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Nicolas\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Nicolas\\Documents\\Repos\\Trabajos Practicos\\TP3\\Test\\Test.csproj",
+      "projectName": "Test",
+      "projectPath": "C:\\Users\\Nicolas\\Documents\\Repos\\Trabajos Practicos\\TP3\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nicolas\\Documents\\Repos\\Trabajos Practicos\\TP3\\Test\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\Nicolas\\Documents\\Repos\\Trabajos Practicos\\TP3\\Controladores\\Controladores.csproj": {
+              "projectPath": "C:\\Users\\Nicolas\\Documents\\Repos\\Trabajos Practicos\\TP3\\Controladores\\Controladores.csproj"
+            },
+            "C:\\Users\\Nicolas\\Documents\\Repos\\Trabajos Practicos\\TP3\\Datos\\Archivos.csproj": {
+              "projectPath": "C:\\Users\\Nicolas\\Documents\\Repos\\Trabajos Practicos\\TP3\\Datos\\Archivos.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

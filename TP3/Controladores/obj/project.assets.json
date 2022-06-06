@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Archivos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Archivos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Archivos.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Archivos/1.0.0": {
+      "type": "project",
+      "path": "../Datos/Archivos.csproj",
+      "msbuildProject": "../Datos/Archivos.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Archivos >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Nicolas\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Nicolas\\Documents\\Repos\\Trabajos Practicos\\TP3\\Datos\\Archivos.csproj": {
+              "projectPath": "C:\\Users\\Nicolas\\Documents\\Repos\\Trabajos Practicos\\TP3\\Datos\\Archivos.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
